@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:background="@color/blue_700">
+
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+
+        <com.razzaghi.testcorona.util.SimpleTextView
+            android:textColor="@color/white"
+            android:id="@+id/txtQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عنوان سوال"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        <LinearLayout
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right|center">
+
+            <com.razzaghi.testcorona.util.SimpleTextView
+                android:textColor="@color/red_400"
+                android:id="@+id/txtFactor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ضریب"
+                android:layout_marginRight="4dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <com.razzaghi.testcorona.util.SimpleTextView
+                android:textColor="@color/grey_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ضریب این سوال:"
+                android:textSize="13sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linearOptions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

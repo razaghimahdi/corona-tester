@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="right"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:id="@+id/linearAnswerOption">
+
+    <com.razzaghi.testcorona.util.SimpleTextView
+        android:textColor="@color/grey_10"
+        android:id="@+id/txtAnswerOption"
+        android:gravity="right|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="جواب"
+        android:layout_marginRight="4dp"
+        android:textSize="16sp"/>
+
+    <com.razzaghi.testcorona.util.SimpleTextView
+        android:textColor="@color/grey_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="جواب:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="15sp"/>
+</LinearLayout>
